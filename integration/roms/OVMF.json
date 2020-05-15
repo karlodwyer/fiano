@@ -26,7 +26,8 @@
 				"DataOffset": 72,
 				"FVOffset": 0,
 				"ExtractPath": "",
-				"Resizable": false
+				"Resizable": false,
+				"AbsOffSet": 0
 			}
 		},
 		{
@@ -89,7 +90,8 @@
 												"Type": 25
 											},
 											"Type": "EFI_SECTION_RAW",
-											"ExtractPath": ""
+											"ExtractPath": "",
+											"AbsOffSet": 0
 										}
 									},
 									{
@@ -141,11 +143,13 @@
 																			"Type": 25
 																		},
 																		"Type": "EFI_SECTION_RAW",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 144
 																	}
 																],
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 120
 															},
 															{
 																"Header": {
@@ -158,7 +162,8 @@
 																},
 																"Type": "EFI_FV_FILETYPE_FFS_PAD",
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 164
 															},
 															{
 																"Header": {
@@ -176,14 +181,16 @@
 																			"Type": 25
 																		},
 																		"Type": "EFI_SECTION_RAW",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 252
 																	},
 																	{
 																		"Header": {
 																			"Type": 16
 																		},
 																		"Type": "EFI_SECTION_PE32",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 312
 																	},
 																	{
 																		"Header": {
@@ -191,7 +198,8 @@
 																		},
 																		"Type": "EFI_SECTION_USER_INTERFACE",
 																		"ExtractPath": "",
-																		"Name": "PeiCore"
+																		"Name": "PeiCore",
+																		"AbsOffSet": 50620
 																	},
 																	{
 																		"Header": {
@@ -199,11 +207,13 @@
 																		},
 																		"Type": "EFI_SECTION_VERSION",
 																		"ExtractPath": "",
-																		"Version": "1.0"
+																		"Version": "1.0",
+																		"AbsOffSet": 50640
 																	}
 																],
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 228
 															},
 															{
 																"Header": {
@@ -216,7 +226,8 @@
 																},
 																"Type": "EFI_FV_FILETYPE_PEIM",
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 50654
 															},
 															{
 																"Header": {
@@ -229,7 +240,8 @@
 																},
 																"Type": "EFI_FV_FILETYPE_FFS_PAD",
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 70936
 															},
 															{
 																"Header": {
@@ -242,7 +254,8 @@
 																},
 																"Type": "EFI_FV_FILETYPE_PEIM",
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 71000
 															},
 															{
 																"Header": {
@@ -255,7 +268,8 @@
 																},
 																"Type": "EFI_FV_FILETYPE_FFS_PAD",
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 79478
 															},
 															{
 																"Header": {
@@ -268,7 +282,8 @@
 																},
 																"Type": "EFI_FV_FILETYPE_PEIM",
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 79574
 															},
 															{
 																"Header": {
@@ -281,7 +296,8 @@
 																},
 																"Type": "EFI_FV_FILETYPE_FFS_PAD",
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 88236
 															},
 															{
 																"Header": {
@@ -294,7 +310,8 @@
 																},
 																"Type": "EFI_FV_FILETYPE_PEIM",
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 88276
 															},
 															{
 																"Header": {
@@ -307,7 +324,8 @@
 																},
 																"Type": "EFI_FV_FILETYPE_FFS_PAD",
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 123478
 															},
 															{
 																"Header": {
@@ -320,7 +338,8 @@
 																},
 																"Type": "EFI_FV_FILETYPE_PEIM",
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 123598
 															},
 															{
 																"Header": {
@@ -333,7 +352,8 @@
 																},
 																"Type": "EFI_FV_FILETYPE_PEIM",
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 143432
 															},
 															{
 																"Header": {
@@ -346,7 +366,8 @@
 																},
 																"Type": "EFI_FV_FILETYPE_FFS_PAD",
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 161166
 															},
 															{
 																"Header": {
@@ -359,16 +380,19 @@
 																},
 																"Type": "EFI_FV_FILETYPE_PEIM",
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 161222
 															}
 														],
 														"DataOffset": 120,
 														"FVOffset": 0,
 														"ExtractPath": "",
-														"Resizable": true
+														"Resizable": true,
+														"AbsOffSet": 0
 													}
 												}
-											]
+											],
+											"AbsOffSet": 124
 										}
 									},
 									{
@@ -378,7 +402,8 @@
 												"Type": 25
 											},
 											"Type": "EFI_SECTION_RAW",
-											"ExtractPath": ""
+											"ExtractPath": "",
+											"AbsOffSet": 917632
 										}
 									},
 									{
@@ -430,11 +455,13 @@
 																			"Type": 25
 																		},
 																		"Type": "EFI_SECTION_RAW",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 144
 																	}
 																],
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 120
 															},
 															{
 																"Header": {
@@ -452,7 +479,8 @@
 																			"Type": 16
 																		},
 																		"Type": "EFI_SECTION_PE32",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 236
 																	},
 																	{
 																		"Header": {
@@ -460,7 +488,8 @@
 																		},
 																		"Type": "EFI_SECTION_USER_INTERFACE",
 																		"ExtractPath": "",
-																		"Name": "DxeCore"
+																		"Name": "DxeCore",
+																		"AbsOffSet": 166128
 																	},
 																	{
 																		"Header": {
@@ -468,11 +497,13 @@
 																		},
 																		"Type": "EFI_SECTION_VERSION",
 																		"ExtractPath": "",
-																		"Version": "1.0"
+																		"Version": "1.0",
+																		"AbsOffSet": 166148
 																	}
 																],
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 212
 															},
 															{
 																"Header": {
@@ -510,14 +541,16 @@
 																			{
 																				"OpCode": "END"
 																			}
-																		]
+																		],
+																		"AbsOffSet": 166186
 																	},
 																	{
 																		"Header": {
 																			"Type": 16
 																		},
 																		"Type": "EFI_SECTION_PE32",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 166226
 																	},
 																	{
 																		"Header": {
@@ -525,7 +558,8 @@
 																		},
 																		"Type": "EFI_SECTION_USER_INTERFACE",
 																		"ExtractPath": "",
-																		"Name": "ReportStatusCodeRouterRuntimeDxe"
+																		"Name": "ReportStatusCodeRouterRuntimeDxe",
+																		"AbsOffSet": 190806
 																	},
 																	{
 																		"Header": {
@@ -533,11 +567,13 @@
 																		},
 																		"Type": "EFI_SECTION_VERSION",
 																		"ExtractPath": "",
-																		"Version": "1.0"
+																		"Version": "1.0",
+																		"AbsOffSet": 190876
 																	}
 																],
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 166162
 															},
 															{
 																"Header": {
@@ -584,14 +620,16 @@
 																			{
 																				"OpCode": "END"
 																			}
-																		]
+																		],
+																		"AbsOffSet": 190916
 																	},
 																	{
 																		"Header": {
 																			"Type": 16
 																		},
 																		"Type": "EFI_SECTION_PE32",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 190974
 																	},
 																	{
 																		"Header": {
@@ -599,7 +637,8 @@
 																		},
 																		"Type": "EFI_SECTION_USER_INTERFACE",
 																		"ExtractPath": "",
-																		"Name": "StatusCodeHandlerRuntimeDxe"
+																		"Name": "StatusCodeHandlerRuntimeDxe",
+																		"AbsOffSet": 215554
 																	},
 																	{
 																		"Header": {
@@ -607,11 +646,13 @@
 																		},
 																		"Type": "EFI_SECTION_VERSION",
 																		"ExtractPath": "",
-																		"Version": "1.0"
+																		"Version": "1.0",
+																		"AbsOffSet": 215614
 																	}
 																],
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 190892
 															},
 															{
 																"Header": {
@@ -629,7 +670,8 @@
 																			"Type": 25
 																		},
 																		"Type": "EFI_SECTION_RAW",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 215654
 																	},
 																	{
 																		"Header": {
@@ -647,14 +689,16 @@
 																			{
 																				"OpCode": "END"
 																			}
-																		]
+																		],
+																		"AbsOffSet": 215874
 																	},
 																	{
 																		"Header": {
 																			"Type": 16
 																		},
 																		"Type": "EFI_SECTION_PE32",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 215896
 																	},
 																	{
 																		"Header": {
@@ -662,7 +706,8 @@
 																		},
 																		"Type": "EFI_SECTION_USER_INTERFACE",
 																		"ExtractPath": "",
-																		"Name": "PcdDxe"
+																		"Name": "PcdDxe",
+																		"AbsOffSet": 240348
 																	},
 																	{
 																		"Header": {
@@ -670,11 +715,13 @@
 																		},
 																		"Type": "EFI_SECTION_VERSION",
 																		"ExtractPath": "",
-																		"Version": "4.0"
+																		"Version": "4.0",
+																		"AbsOffSet": 240366
 																	}
 																],
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 215630
 															},
 															{
 																"Header": {
@@ -712,14 +759,16 @@
 																			{
 																				"OpCode": "END"
 																			}
-																		]
+																		],
+																		"AbsOffSet": 240408
 																	},
 																	{
 																		"Header": {
 																			"Type": 16
 																		},
 																		"Type": "EFI_SECTION_PE32",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 240448
 																	},
 																	{
 																		"Header": {
@@ -727,7 +776,8 @@
 																		},
 																		"Type": "EFI_SECTION_USER_INTERFACE",
 																		"ExtractPath": "",
-																		"Name": "RuntimeDxe"
+																		"Name": "RuntimeDxe",
+																		"AbsOffSet": 265028
 																	},
 																	{
 																		"Header": {
@@ -735,11 +785,13 @@
 																		},
 																		"Type": "EFI_SECTION_VERSION",
 																		"ExtractPath": "",
-																		"Version": "1.0"
+																		"Version": "1.0",
+																		"AbsOffSet": 265054
 																	}
 																],
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 240384
 															},
 															{
 																"Header": {
@@ -777,14 +829,16 @@
 																			{
 																				"OpCode": "END"
 																			}
-																		]
+																		],
+																		"AbsOffSet": 265094
 																	},
 																	{
 																		"Header": {
 																			"Type": 16
 																		},
 																		"Type": "EFI_SECTION_PE32",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 265134
 																	},
 																	{
 																		"Header": {
@@ -792,7 +846,8 @@
 																		},
 																		"Type": "EFI_SECTION_USER_INTERFACE",
 																		"ExtractPath": "",
-																		"Name": "SecurityStubDxe"
+																		"Name": "SecurityStubDxe",
+																		"AbsOffSet": 276786
 																	},
 																	{
 																		"Header": {
@@ -800,11 +855,13 @@
 																		},
 																		"Type": "EFI_SECTION_VERSION",
 																		"ExtractPath": "",
-																		"Version": "1.0"
+																		"Version": "1.0",
+																		"AbsOffSet": 276822
 																	}
 																],
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 265070
 															},
 															{
 																"Header": {
@@ -833,14 +890,16 @@
 																			{
 																				"OpCode": "END"
 																			}
-																		]
+																		],
+																		"AbsOffSet": 276860
 																	},
 																	{
 																		"Header": {
 																			"Type": 16
 																		},
 																		"Type": "EFI_SECTION_PE32",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 276882
 																	},
 																	{
 																		"Header": {
@@ -848,7 +907,8 @@
 																		},
 																		"Type": "EFI_SECTION_USER_INTERFACE",
 																		"ExtractPath": "",
-																		"Name": "EbcDxe"
+																		"Name": "EbcDxe",
+																		"AbsOffSet": 298326
 																	},
 																	{
 																		"Header": {
@@ -856,11 +916,13 @@
 																		},
 																		"Type": "EFI_SECTION_VERSION",
 																		"ExtractPath": "",
-																		"Version": "1.0"
+																		"Version": "1.0",
+																		"AbsOffSet": 298344
 																	}
 																],
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 276836
 															},
 															{
 																"Header": {
@@ -889,14 +951,16 @@
 																			{
 																				"OpCode": "END"
 																			}
-																		]
+																		],
+																		"AbsOffSet": 298386
 																	},
 																	{
 																		"Header": {
 																			"Type": 16
 																		},
 																		"Type": "EFI_SECTION_PE32",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 298408
 																	},
 																	{
 																		"Header": {
@@ -904,7 +968,8 @@
 																		},
 																		"Type": "EFI_SECTION_USER_INTERFACE",
 																		"ExtractPath": "",
-																		"Name": "Legacy8259"
+																		"Name": "Legacy8259",
+																		"AbsOffSet": 306220
 																	},
 																	{
 																		"Header": {
@@ -912,11 +977,13 @@
 																		},
 																		"Type": "EFI_SECTION_VERSION",
 																		"ExtractPath": "",
-																		"Version": "1.0"
+																		"Version": "1.0",
+																		"AbsOffSet": 306246
 																	}
 																],
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 298362
 															},
 															{
 																"Header": {
@@ -945,14 +1012,16 @@
 																			{
 																				"OpCode": "END"
 																			}
-																		]
+																		],
+																		"AbsOffSet": 306288
 																	},
 																	{
 																		"Header": {
 																			"Type": 16
 																		},
 																		"Type": "EFI_SECTION_PE32",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 306310
 																	},
 																	{
 																		"Header": {
@@ -960,7 +1029,8 @@
 																		},
 																		"Type": "EFI_SECTION_USER_INTERFACE",
 																		"ExtractPath": "",
-																		"Name": "CpuIo2Dxe"
+																		"Name": "CpuIo2Dxe",
+																		"AbsOffSet": 315082
 																	},
 																	{
 																		"Header": {
@@ -968,11 +1038,13 @@
 																		},
 																		"Type": "EFI_SECTION_VERSION",
 																		"ExtractPath": "",
-																		"Version": "1.0"
+																		"Version": "1.0",
+																		"AbsOffSet": 315106
 																	}
 																],
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 306264
 															},
 															{
 																"Header": {
@@ -1010,14 +1082,16 @@
 																			{
 																				"OpCode": "END"
 																			}
-																		]
+																		],
+																		"AbsOffSet": 315146
 																	},
 																	{
 																		"Header": {
 																			"Type": 16
 																		},
 																		"Type": "EFI_SECTION_PE32",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 315186
 																	},
 																	{
 																		"Header": {
@@ -1025,7 +1099,8 @@
 																		},
 																		"Type": "EFI_SECTION_USER_INTERFACE",
 																		"ExtractPath": "",
-																		"Name": "CpuDxe"
+																		"Name": "CpuDxe",
+																		"AbsOffSet": 377846
 																	},
 																	{
 																		"Header": {
@@ -1033,11 +1108,13 @@
 																		},
 																		"Type": "EFI_SECTION_VERSION",
 																		"ExtractPath": "",
-																		"Version": "1.0"
+																		"Version": "1.0",
+																		"AbsOffSet": 377864
 																	}
 																],
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 315122
 															},
 															{
 																"Header": {
@@ -1084,14 +1161,16 @@
 																			{
 																				"OpCode": "END"
 																			}
-																		]
+																		],
+																		"AbsOffSet": 377904
 																	},
 																	{
 																		"Header": {
 																			"Type": 16
 																		},
 																		"Type": "EFI_SECTION_PE32",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 377962
 																	},
 																	{
 																		"Header": {
@@ -1099,7 +1178,8 @@
 																		},
 																		"Type": "EFI_SECTION_USER_INTERFACE",
 																		"ExtractPath": "",
-																		"Name": "Timer"
+																		"Name": "Timer",
+																		"AbsOffSet": 385966
 																	},
 																	{
 																		"Header": {
@@ -1107,11 +1187,13 @@
 																		},
 																		"Type": "EFI_SECTION_VERSION",
 																		"ExtractPath": "",
-																		"Version": "1.0"
+																		"Version": "1.0",
+																		"AbsOffSet": 385982
 																	}
 																],
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 377880
 															},
 															{
 																"Header": {
@@ -1140,14 +1222,16 @@
 																			{
 																				"OpCode": "END"
 																			}
-																		]
+																		],
+																		"AbsOffSet": 386022
 																	},
 																	{
 																		"Header": {
 																			"Type": 16
 																		},
 																		"Type": "EFI_SECTION_PE32",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 386044
 																	},
 																	{
 																		"Header": {
@@ -1155,7 +1239,8 @@
 																		},
 																		"Type": "EFI_SECTION_USER_INTERFACE",
 																		"ExtractPath": "",
-																		"Name": "IncompatiblePciDeviceSupportDxe"
+																		"Name": "IncompatiblePciDeviceSupportDxe",
+																		"AbsOffSet": 394752
 																	},
 																	{
 																		"Header": {
@@ -1163,11 +1248,13 @@
 																		},
 																		"Type": "EFI_SECTION_VERSION",
 																		"ExtractPath": "",
-																		"Version": "1.0"
+																		"Version": "1.0",
+																		"AbsOffSet": 394820
 																	}
 																],
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 385998
 															},
 															{
 																"Header": {
@@ -1205,14 +1292,16 @@
 																			{
 																				"OpCode": "END"
 																			}
-																		]
+																		],
+																		"AbsOffSet": 394860
 																	},
 																	{
 																		"Header": {
 																			"Type": 16
 																		},
 																		"Type": "EFI_SECTION_PE32",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 394900
 																	},
 																	{
 																		"Header": {
@@ -1220,7 +1309,8 @@
 																		},
 																		"Type": "EFI_SECTION_USER_INTERFACE",
 																		"ExtractPath": "",
-																		"Name": "PciHotPlugInitDxe"
+																		"Name": "PciHotPlugInitDxe",
+																		"AbsOffSet": 408088
 																	},
 																	{
 																		"Header": {
@@ -1228,11 +1318,13 @@
 																		},
 																		"Type": "EFI_SECTION_VERSION",
 																		"ExtractPath": "",
-																		"Version": "1.0"
+																		"Version": "1.0",
+																		"AbsOffSet": 408128
 																	}
 																],
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 394836
 															},
 															{
 																"Header": {
@@ -1333,14 +1425,16 @@
 																			{
 																				"OpCode": "END"
 																			}
-																		]
+																		],
+																		"AbsOffSet": 408166
 																	},
 																	{
 																		"Header": {
 																			"Type": 16
 																		},
 																		"Type": "EFI_SECTION_PE32",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 408332
 																	},
 																	{
 																		"Header": {
@@ -1348,7 +1442,8 @@
 																		},
 																		"Type": "EFI_SECTION_USER_INTERFACE",
 																		"ExtractPath": "",
-																		"Name": "PciHostBridgeDxe"
+																		"Name": "PciHostBridgeDxe",
+																		"AbsOffSet": 447568
 																	},
 																	{
 																		"Header": {
@@ -1356,11 +1451,13 @@
 																		},
 																		"Type": "EFI_SECTION_VERSION",
 																		"ExtractPath": "",
-																		"Version": "1.0"
+																		"Version": "1.0",
+																		"AbsOffSet": 447606
 																	}
 																],
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 408142
 															},
 															{
 																"Header": {
@@ -1378,7 +1475,8 @@
 																			"Type": 16
 																		},
 																		"Type": "EFI_SECTION_PE32",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 447648
 																	},
 																	{
 																		"Header": {
@@ -1386,7 +1484,8 @@
 																		},
 																		"Type": "EFI_SECTION_USER_INTERFACE",
 																		"ExtractPath": "",
-																		"Name": "PciBusDxe"
+																		"Name": "PciBusDxe",
+																		"AbsOffSet": 513060
 																	},
 																	{
 																		"Header": {
@@ -1394,11 +1493,13 @@
 																		},
 																		"Type": "EFI_SECTION_VERSION",
 																		"ExtractPath": "",
-																		"Version": "1.0"
+																		"Version": "1.0",
+																		"AbsOffSet": 513084
 																	}
 																],
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 447624
 															},
 															{
 																"Header": {
@@ -1436,14 +1537,16 @@
 																			{
 																				"OpCode": "END"
 																			}
-																		]
+																		],
+																		"AbsOffSet": 513122
 																	},
 																	{
 																		"Header": {
 																			"Type": 16
 																		},
 																		"Type": "EFI_SECTION_PE32",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 513162
 																	},
 																	{
 																		"Header": {
@@ -1451,7 +1554,8 @@
 																		},
 																		"Type": "EFI_SECTION_USER_INTERFACE",
 																		"ExtractPath": "",
-																		"Name": "ResetSystemRuntimeDxe"
+																		"Name": "ResetSystemRuntimeDxe",
+																		"AbsOffSet": 541838
 																	},
 																	{
 																		"Header": {
@@ -1459,11 +1563,13 @@
 																		},
 																		"Type": "EFI_SECTION_VERSION",
 																		"ExtractPath": "",
-																		"Version": "1.0"
+																		"Version": "1.0",
+																		"AbsOffSet": 541886
 																	}
 																],
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 513098
 															},
 															{
 																"Header": {
@@ -1492,14 +1598,16 @@
 																			{
 																				"OpCode": "END"
 																			}
-																		]
+																		],
+																		"AbsOffSet": 541924
 																	},
 																	{
 																		"Header": {
 																			"Type": 16
 																		},
 																		"Type": "EFI_SECTION_PE32",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 541946
 																	},
 																	{
 																		"Header": {
@@ -1507,7 +1615,8 @@
 																		},
 																		"Type": "EFI_SECTION_USER_INTERFACE",
 																		"ExtractPath": "",
-																		"Name": "Metronome"
+																		"Name": "Metronome",
+																		"AbsOffSet": 550270
 																	},
 																	{
 																		"Header": {
@@ -1515,11 +1624,13 @@
 																		},
 																		"Type": "EFI_SECTION_VERSION",
 																		"ExtractPath": "",
-																		"Version": "1.0"
+																		"Version": "1.0",
+																		"AbsOffSet": 550294
 																	}
 																],
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 541900
 															},
 															{
 																"Header": {
@@ -1575,14 +1686,16 @@
 																			{
 																				"OpCode": "END"
 																			}
-																		]
+																		],
+																		"AbsOffSet": 550334
 																	},
 																	{
 																		"Header": {
 																			"Type": 16
 																		},
 																		"Type": "EFI_SECTION_PE32",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 550410
 																	},
 																	{
 																		"Header": {
@@ -1590,7 +1703,8 @@
 																		},
 																		"Type": "EFI_SECTION_USER_INTERFACE",
 																		"ExtractPath": "",
-																		"Name": "PcRtc"
+																		"Name": "PcRtc",
+																		"AbsOffSet": 579086
 																	},
 																	{
 																		"Header": {
@@ -1598,11 +1712,13 @@
 																		},
 																		"Type": "EFI_SECTION_VERSION",
 																		"ExtractPath": "",
-																		"Version": "1.0"
+																		"Version": "1.0",
+																		"AbsOffSet": 579102
 																	}
 																],
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 550310
 															},
 															{
 																"Header": {
@@ -1620,7 +1736,8 @@
 																			"Type": 16
 																		},
 																		"Type": "EFI_SECTION_PE32",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 579140
 																	},
 																	{
 																		"Header": {
@@ -1628,7 +1745,8 @@
 																		},
 																		"Type": "EFI_SECTION_USER_INTERFACE",
 																		"ExtractPath": "",
-																		"Name": "BlockMmioToBlockIoDxe"
+																		"Name": "BlockMmioToBlockIoDxe",
+																		"AbsOffSet": 590920
 																	},
 																	{
 																		"Header": {
@@ -1636,11 +1754,13 @@
 																		},
 																		"Type": "EFI_SECTION_VERSION",
 																		"ExtractPath": "",
-																		"Version": "1.0"
+																		"Version": "1.0",
+																		"AbsOffSet": 590968
 																	}
 																],
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 579116
 															},
 															{
 																"Header": {
@@ -1658,7 +1778,8 @@
 																			"Type": 16
 																		},
 																		"Type": "EFI_SECTION_PE32",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 591006
 																	},
 																	{
 																		"Header": {
@@ -1666,7 +1787,8 @@
 																		},
 																		"Type": "EFI_SECTION_USER_INTERFACE",
 																		"ExtractPath": "",
-																		"Name": "VirtioPciDeviceDxe"
+																		"Name": "VirtioPciDeviceDxe",
+																		"AbsOffSet": 604002
 																	},
 																	{
 																		"Header": {
@@ -1674,11 +1796,13 @@
 																		},
 																		"Type": "EFI_SECTION_VERSION",
 																		"ExtractPath": "",
-																		"Version": "1.0"
+																		"Version": "1.0",
+																		"AbsOffSet": 604044
 																	}
 																],
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 590982
 															},
 															{
 																"Header": {
@@ -1696,7 +1820,8 @@
 																			"Type": 16
 																		},
 																		"Type": "EFI_SECTION_PE32",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 604084
 																	},
 																	{
 																		"Header": {
@@ -1704,7 +1829,8 @@
 																		},
 																		"Type": "EFI_SECTION_USER_INTERFACE",
 																		"ExtractPath": "",
-																		"Name": "Virtio10"
+																		"Name": "Virtio10",
+																		"AbsOffSet": 618168
 																	},
 																	{
 																		"Header": {
@@ -1712,11 +1838,13 @@
 																		},
 																		"Type": "EFI_SECTION_VERSION",
 																		"ExtractPath": "",
-																		"Version": "1.0"
+																		"Version": "1.0",
+																		"AbsOffSet": 618190
 																	}
 																],
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 604060
 															},
 															{
 																"Header": {
@@ -1734,7 +1862,8 @@
 																			"Type": 16
 																		},
 																		"Type": "EFI_SECTION_PE32",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 618230
 																	},
 																	{
 																		"Header": {
@@ -1742,7 +1871,8 @@
 																		},
 																		"Type": "EFI_SECTION_USER_INTERFACE",
 																		"ExtractPath": "",
-																		"Name": "VirtioBlkDxe"
+																		"Name": "VirtioBlkDxe",
+																		"AbsOffSet": 632762
 																	},
 																	{
 																		"Header": {
@@ -1750,11 +1880,13 @@
 																		},
 																		"Type": "EFI_SECTION_VERSION",
 																		"ExtractPath": "",
-																		"Version": "1.0"
+																		"Version": "1.0",
+																		"AbsOffSet": 632792
 																	}
 																],
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 618206
 															},
 															{
 																"Header": {
@@ -1772,7 +1904,8 @@
 																			"Type": 16
 																		},
 																		"Type": "EFI_SECTION_PE32",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 632832
 																	},
 																	{
 																		"Header": {
@@ -1780,7 +1913,8 @@
 																		},
 																		"Type": "EFI_SECTION_USER_INTERFACE",
 																		"ExtractPath": "",
-																		"Name": "VirtioScsiDxe"
+																		"Name": "VirtioScsiDxe",
+																		"AbsOffSet": 648580
 																	},
 																	{
 																		"Header": {
@@ -1788,11 +1922,13 @@
 																		},
 																		"Type": "EFI_SECTION_VERSION",
 																		"ExtractPath": "",
-																		"Version": "1.0"
+																		"Version": "1.0",
+																		"AbsOffSet": 648612
 																	}
 																],
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 632808
 															},
 															{
 																"Header": {
@@ -1810,7 +1946,8 @@
 																			"Type": 16
 																		},
 																		"Type": "EFI_SECTION_PE32",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 648650
 																	},
 																	{
 																		"Header": {
@@ -1818,7 +1955,8 @@
 																		},
 																		"Type": "EFI_SECTION_USER_INTERFACE",
 																		"ExtractPath": "",
-																		"Name": "VirtioRngDxe"
+																		"Name": "VirtioRngDxe",
+																		"AbsOffSet": 661646
 																	},
 																	{
 																		"Header": {
@@ -1826,11 +1964,13 @@
 																		},
 																		"Type": "EFI_SECTION_VERSION",
 																		"ExtractPath": "",
-																		"Version": "1.0"
+																		"Version": "1.0",
+																		"AbsOffSet": 661676
 																	}
 																],
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 648626
 															},
 															{
 																"Header": {
@@ -1848,7 +1988,8 @@
 																			"Type": 16
 																		},
 																		"Type": "EFI_SECTION_PE32",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 661716
 																	},
 																	{
 																		"Header": {
@@ -1856,7 +1997,8 @@
 																		},
 																		"Type": "EFI_SECTION_USER_INTERFACE",
 																		"ExtractPath": "",
-																		"Name": "XenIoPciDxe"
+																		"Name": "XenIoPciDxe",
+																		"AbsOffSet": 672152
 																	},
 																	{
 																		"Header": {
@@ -1864,11 +2006,13 @@
 																		},
 																		"Type": "EFI_SECTION_VERSION",
 																		"ExtractPath": "",
-																		"Version": "1.0"
+																		"Version": "1.0",
+																		"AbsOffSet": 672180
 																	}
 																],
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 661692
 															},
 															{
 																"Header": {
@@ -1886,7 +2030,8 @@
 																			"Type": 16
 																		},
 																		"Type": "EFI_SECTION_PE32",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 672218
 																	},
 																	{
 																		"Header": {
@@ -1894,7 +2039,8 @@
 																		},
 																		"Type": "EFI_SECTION_USER_INTERFACE",
 																		"ExtractPath": "",
-																		"Name": "XenBusDxe"
+																		"Name": "XenBusDxe",
+																		"AbsOffSet": 710750
 																	},
 																	{
 																		"Header": {
@@ -1902,11 +2048,13 @@
 																		},
 																		"Type": "EFI_SECTION_VERSION",
 																		"ExtractPath": "",
-																		"Version": "1.0"
+																		"Version": "1.0",
+																		"AbsOffSet": 710774
 																	}
 																],
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 672194
 															},
 															{
 																"Header": {
@@ -1924,7 +2072,8 @@
 																			"Type": 16
 																		},
 																		"Type": "EFI_SECTION_PE32",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 710812
 																	},
 																	{
 																		"Header": {
@@ -1932,7 +2081,8 @@
 																		},
 																		"Type": "EFI_SECTION_USER_INTERFACE",
 																		"ExtractPath": "",
-																		"Name": "XenPvBlkDxe"
+																		"Name": "XenPvBlkDxe",
+																		"AbsOffSet": 731232
 																	},
 																	{
 																		"Header": {
@@ -1940,11 +2090,13 @@
 																		},
 																		"Type": "EFI_SECTION_VERSION",
 																		"ExtractPath": "",
-																		"Version": "1.0"
+																		"Version": "1.0",
+																		"AbsOffSet": 731260
 																	}
 																],
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 710788
 															},
 															{
 																"Header": {
@@ -1991,14 +2143,16 @@
 																			{
 																				"OpCode": "END"
 																			}
-																		]
+																		],
+																		"AbsOffSet": 731298
 																	},
 																	{
 																		"Header": {
 																			"Type": 16
 																		},
 																		"Type": "EFI_SECTION_PE32",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 731356
 																	},
 																	{
 																		"Header": {
@@ -2006,7 +2160,8 @@
 																		},
 																		"Type": "EFI_SECTION_USER_INTERFACE",
 																		"ExtractPath": "",
-																		"Name": "WatchdogTimer"
+																		"Name": "WatchdogTimer",
+																		"AbsOffSet": 739680
 																	},
 																	{
 																		"Header": {
@@ -2014,11 +2169,13 @@
 																		},
 																		"Type": "EFI_SECTION_VERSION",
 																		"ExtractPath": "",
-																		"Version": "1.0"
+																		"Version": "1.0",
+																		"AbsOffSet": 739712
 																	}
 																],
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 731274
 															},
 															{
 																"Header": {
@@ -2065,14 +2222,16 @@
 																			{
 																				"OpCode": "END"
 																			}
-																		]
+																		],
+																		"AbsOffSet": 739752
 																	},
 																	{
 																		"Header": {
 																			"Type": 16
 																		},
 																		"Type": "EFI_SECTION_PE32",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 739810
 																	},
 																	{
 																		"Header": {
@@ -2080,7 +2239,8 @@
 																		},
 																		"Type": "EFI_SECTION_USER_INTERFACE",
 																		"ExtractPath": "",
-																		"Name": "MonotonicCounterRuntimeDxe"
+																		"Name": "MonotonicCounterRuntimeDxe",
+																		"AbsOffSet": 760294
 																	},
 																	{
 																		"Header": {
@@ -2088,11 +2248,13 @@
 																		},
 																		"Type": "EFI_SECTION_VERSION",
 																		"ExtractPath": "",
-																		"Version": "1.0"
+																		"Version": "1.0",
+																		"AbsOffSet": 760352
 																	}
 																],
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 739728
 															},
 															{
 																"Header": {
@@ -2139,14 +2301,16 @@
 																			{
 																				"OpCode": "END"
 																			}
-																		]
+																		],
+																		"AbsOffSet": 760394
 																	},
 																	{
 																		"Header": {
 																			"Type": 16
 																		},
 																		"Type": "EFI_SECTION_PE32",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 760452
 																	},
 																	{
 																		"Header": {
@@ -2154,7 +2318,8 @@
 																		},
 																		"Type": "EFI_SECTION_USER_INTERFACE",
 																		"ExtractPath": "",
-																		"Name": "CapsuleRuntimeDxe"
+																		"Name": "CapsuleRuntimeDxe",
+																		"AbsOffSet": 785032
 																	},
 																	{
 																		"Header": {
@@ -2162,11 +2327,13 @@
 																		},
 																		"Type": "EFI_SECTION_VERSION",
 																		"ExtractPath": "",
-																		"Version": "1.0"
+																		"Version": "1.0",
+																		"AbsOffSet": 785072
 																	}
 																],
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 760370
 															},
 															{
 																"Header": {
@@ -2184,7 +2351,8 @@
 																			"Type": 16
 																		},
 																		"Type": "EFI_SECTION_PE32",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 785112
 																	},
 																	{
 																		"Header": {
@@ -2192,7 +2360,8 @@
 																		},
 																		"Type": "EFI_SECTION_USER_INTERFACE",
 																		"ExtractPath": "",
-																		"Name": "ConPlatformDxe"
+																		"Name": "ConPlatformDxe",
+																		"AbsOffSet": 801372
 																	},
 																	{
 																		"Header": {
@@ -2200,11 +2369,13 @@
 																		},
 																		"Type": "EFI_SECTION_VERSION",
 																		"ExtractPath": "",
-																		"Version": "1.0"
+																		"Version": "1.0",
+																		"AbsOffSet": 801406
 																	}
 																],
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 785088
 															},
 															{
 																"Header": {
@@ -2222,7 +2393,8 @@
 																			"Type": 16
 																		},
 																		"Type": "EFI_SECTION_PE32",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 801446
 																	},
 																	{
 																		"Header": {
@@ -2230,7 +2402,8 @@
 																		},
 																		"Type": "EFI_SECTION_USER_INTERFACE",
 																		"ExtractPath": "",
-																		"Name": "ConSplitterDxe"
+																		"Name": "ConSplitterDxe",
+																		"AbsOffSet": 834602
 																	},
 																	{
 																		"Header": {
@@ -2238,11 +2411,13 @@
 																		},
 																		"Type": "EFI_SECTION_VERSION",
 																		"ExtractPath": "",
-																		"Version": "1.0"
+																		"Version": "1.0",
+																		"AbsOffSet": 834636
 																	}
 																],
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 801422
 															},
 															{
 																"Header": {
@@ -2260,7 +2435,8 @@
 																			"Type": 16
 																		},
 																		"Type": "EFI_SECTION_PE32",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 834676
 																	},
 																	{
 																		"Header": {
@@ -2268,7 +2444,8 @@
 																		},
 																		"Type": "EFI_SECTION_USER_INTERFACE",
 																		"ExtractPath": "",
-																		"Name": "GraphicsConsoleDxe"
+																		"Name": "GraphicsConsoleDxe",
+																		"AbsOffSet": 859640
 																	},
 																	{
 																		"Header": {
@@ -2276,11 +2453,13 @@
 																		},
 																		"Type": "EFI_SECTION_VERSION",
 																		"ExtractPath": "",
-																		"Version": "1.0"
+																		"Version": "1.0",
+																		"AbsOffSet": 859682
 																	}
 																],
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 834652
 															},
 															{
 																"Header": {
@@ -2298,7 +2477,8 @@
 																			"Type": 16
 																		},
 																		"Type": "EFI_SECTION_PE32",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 859722
 																	},
 																	{
 																		"Header": {
@@ -2306,7 +2486,8 @@
 																		},
 																		"Type": "EFI_SECTION_USER_INTERFACE",
 																		"ExtractPath": "",
-																		"Name": "TerminalDxe"
+																		"Name": "TerminalDxe",
+																		"AbsOffSet": 892622
 																	},
 																	{
 																		"Header": {
@@ -2314,11 +2495,13 @@
 																		},
 																		"Type": "EFI_SECTION_VERSION",
 																		"ExtractPath": "",
-																		"Version": "1.0"
+																		"Version": "1.0",
+																		"AbsOffSet": 892650
 																	}
 																],
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 859698
 															},
 															{
 																"Header": {
@@ -2392,21 +2575,24 @@
 																			{
 																				"OpCode": "END"
 																			}
-																		]
+																		],
+																		"AbsOffSet": 892688
 																	},
 																	{
 																		"Header": {
 																			"Type": 25
 																		},
 																		"Type": "EFI_SECTION_RAW",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 892800
 																	},
 																	{
 																		"Header": {
 																			"Type": 16
 																		},
 																		"Type": "EFI_SECTION_PE32",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 892876
 																	},
 																	{
 																		"Header": {
@@ -2414,7 +2600,8 @@
 																		},
 																		"Type": "EFI_SECTION_USER_INTERFACE",
 																		"ExtractPath": "",
-																		"Name": "DriverHealthManagerDxe"
+																		"Name": "DriverHealthManagerDxe",
+																		"AbsOffSet": 918864
 																	},
 																	{
 																		"Header": {
@@ -2422,11 +2609,13 @@
 																		},
 																		"Type": "EFI_SECTION_VERSION",
 																		"ExtractPath": "",
-																		"Version": "1.0"
+																		"Version": "1.0",
+																		"AbsOffSet": 918914
 																	}
 																],
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 892664
 															},
 															{
 																"Header": {
@@ -2524,14 +2713,16 @@
 																			{
 																				"OpCode": "END"
 																			}
-																		]
+																		],
+																		"AbsOffSet": 918954
 																	},
 																	{
 																		"Header": {
 																			"Type": 16
 																		},
 																		"Type": "EFI_SECTION_PE32",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 919104
 																	},
 																	{
 																		"Header": {
@@ -2539,7 +2730,8 @@
 																		},
 																		"Type": "EFI_SECTION_USER_INTERFACE",
 																		"ExtractPath": "",
-																		"Name": "BdsDxe"
+																		"Name": "BdsDxe",
+																		"AbsOffSet": 1030340
 																	},
 																	{
 																		"Header": {
@@ -2547,11 +2739,13 @@
 																		},
 																		"Type": "EFI_SECTION_VERSION",
 																		"ExtractPath": "",
-																		"Version": "1.0"
+																		"Version": "1.0",
+																		"AbsOffSet": 1030358
 																	}
 																],
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 918930
 															},
 															{
 																"Header": {
@@ -2569,14 +2763,16 @@
 																			"Type": 16
 																		},
 																		"Type": "EFI_SECTION_PE32",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 1030400
 																	},
 																	{
 																		"Header": {
 																			"Type": 25
 																		},
 																		"Type": "EFI_SECTION_RAW",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 1183236
 																	},
 																	{
 																		"Header": {
@@ -2584,7 +2780,8 @@
 																		},
 																		"Type": "EFI_SECTION_USER_INTERFACE",
 																		"ExtractPath": "",
-																		"Name": "UiApp"
+																		"Name": "UiApp",
+																		"AbsOffSet": 1183288
 																	},
 																	{
 																		"Header": {
@@ -2592,11 +2789,13 @@
 																		},
 																		"Type": "EFI_SECTION_VERSION",
 																		"ExtractPath": "",
-																		"Version": "1.0"
+																		"Version": "1.0",
+																		"AbsOffSet": 1183304
 																	}
 																],
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 1030376
 															},
 															{
 																"Header": {
@@ -2622,14 +2821,16 @@
 																			{
 																				"OpCode": "END"
 																			}
-																		]
+																		],
+																		"AbsOffSet": 1183342
 																	},
 																	{
 																		"Header": {
 																			"Type": 16
 																		},
 																		"Type": "EFI_SECTION_PE32",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 1183348
 																	},
 																	{
 																		"Header": {
@@ -2637,7 +2838,8 @@
 																		},
 																		"Type": "EFI_SECTION_USER_INTERFACE",
 																		"ExtractPath": "",
-																		"Name": "DevicePathDxe"
+																		"Name": "DevicePathDxe",
+																		"AbsOffSet": 1229368
 																	},
 																	{
 																		"Header": {
@@ -2645,11 +2847,13 @@
 																		},
 																		"Type": "EFI_SECTION_VERSION",
 																		"ExtractPath": "",
-																		"Version": "1.0"
+																		"Version": "1.0",
+																		"AbsOffSet": 1229400
 																	}
 																],
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 1183318
 															},
 															{
 																"Header": {
@@ -2678,14 +2882,16 @@
 																			{
 																				"OpCode": "END"
 																			}
-																		]
+																		],
+																		"AbsOffSet": 1229440
 																	},
 																	{
 																		"Header": {
 																			"Type": 16
 																		},
 																		"Type": "EFI_SECTION_PE32",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 1229462
 																	},
 																	{
 																		"Header": {
@@ -2693,7 +2899,8 @@
 																		},
 																		"Type": "EFI_SECTION_USER_INTERFACE",
 																		"ExtractPath": "",
-																		"Name": "PrintDxe"
+																		"Name": "PrintDxe",
+																		"AbsOffSet": 1241178
 																	},
 																	{
 																		"Header": {
@@ -2701,11 +2908,13 @@
 																		},
 																		"Type": "EFI_SECTION_VERSION",
 																		"ExtractPath": "",
-																		"Version": "1.0"
+																		"Version": "1.0",
+																		"AbsOffSet": 1241200
 																	}
 																],
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 1229416
 															},
 															{
 																"Header": {
@@ -2723,7 +2932,8 @@
 																			"Type": 16
 																		},
 																		"Type": "EFI_SECTION_PE32",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 1241242
 																	},
 																	{
 																		"Header": {
@@ -2731,7 +2941,8 @@
 																		},
 																		"Type": "EFI_SECTION_USER_INTERFACE",
 																		"ExtractPath": "",
-																		"Name": "DiskIoDxe"
+																		"Name": "DiskIoDxe",
+																		"AbsOffSet": 1261790
 																	},
 																	{
 																		"Header": {
@@ -2739,11 +2950,13 @@
 																		},
 																		"Type": "EFI_SECTION_VERSION",
 																		"ExtractPath": "",
-																		"Version": "1.0"
+																		"Version": "1.0",
+																		"AbsOffSet": 1261814
 																	}
 																],
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 1241218
 															},
 															{
 																"Header": {
@@ -2761,7 +2974,8 @@
 																			"Type": 16
 																		},
 																		"Type": "EFI_SECTION_PE32",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 1261852
 																	},
 																	{
 																		"Header": {
@@ -2769,7 +2983,8 @@
 																		},
 																		"Type": "EFI_SECTION_USER_INTERFACE",
 																		"ExtractPath": "",
-																		"Name": "PartitionDxe"
+																		"Name": "PartitionDxe",
+																		"AbsOffSet": 1286560
 																	},
 																	{
 																		"Header": {
@@ -2777,11 +2992,13 @@
 																		},
 																		"Type": "EFI_SECTION_VERSION",
 																		"ExtractPath": "",
-																		"Version": "1.0"
+																		"Version": "1.0",
+																		"AbsOffSet": 1286590
 																	}
 																],
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 1261828
 															},
 															{
 																"Header": {
@@ -2855,21 +3072,24 @@
 																			{
 																				"OpCode": "END"
 																			}
-																		]
+																		],
+																		"AbsOffSet": 1286630
 																	},
 																	{
 																		"Header": {
 																			"Type": 25
 																		},
 																		"Type": "EFI_SECTION_RAW",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 1286742
 																	},
 																	{
 																		"Header": {
 																			"Type": 16
 																		},
 																		"Type": "EFI_SECTION_PE32",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 1286794
 																	},
 																	{
 																		"Header": {
@@ -2877,7 +3097,8 @@
 																		},
 																		"Type": "EFI_SECTION_USER_INTERFACE",
 																		"ExtractPath": "",
-																		"Name": "RamDiskDxe"
+																		"Name": "RamDiskDxe",
+																		"AbsOffSet": 1331854
 																	},
 																	{
 																		"Header": {
@@ -2885,18 +3106,21 @@
 																		},
 																		"Type": "EFI_SECTION_VERSION",
 																		"ExtractPath": "",
-																		"Version": "1.0"
+																		"Version": "1.0",
+																		"AbsOffSet": 1331880
 																	},
 																	{
 																		"Header": {
 																			"Type": 25
 																		},
 																		"Type": "EFI_SECTION_RAW",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 1331894
 																	}
 																],
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 1286606
 															},
 															{
 																"Header": {
@@ -2914,7 +3138,8 @@
 																			"Type": 16
 																		},
 																		"Type": "EFI_SECTION_PE32",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 1332050
 																	},
 																	{
 																		"Header": {
@@ -2922,7 +3147,8 @@
 																		},
 																		"Type": "EFI_SECTION_USER_INTERFACE",
 																		"ExtractPath": "",
-																		"Name": "EnglishDxe"
+																		"Name": "EnglishDxe",
+																		"AbsOffSet": 1340950
 																	},
 																	{
 																		"Header": {
@@ -2930,11 +3156,13 @@
 																		},
 																		"Type": "EFI_SECTION_VERSION",
 																		"ExtractPath": "",
-																		"Version": "1.0"
+																		"Version": "1.0",
+																		"AbsOffSet": 1340976
 																	}
 																],
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 1332026
 															},
 															{
 																"Header": {
@@ -2952,7 +3180,8 @@
 																			"Type": 16
 																		},
 																		"Type": "EFI_SECTION_PE32",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 1341016
 																	},
 																	{
 																		"Header": {
@@ -2960,7 +3189,8 @@
 																		},
 																		"Type": "EFI_SECTION_USER_INTERFACE",
 																		"ExtractPath": "",
-																		"Name": "ScsiBus"
+																		"Name": "ScsiBus",
+																		"AbsOffSet": 1358236
 																	},
 																	{
 																		"Header": {
@@ -2968,11 +3198,13 @@
 																		},
 																		"Type": "EFI_SECTION_VERSION",
 																		"ExtractPath": "",
-																		"Version": "1.0"
+																		"Version": "1.0",
+																		"AbsOffSet": 1358256
 																	}
 																],
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 1340992
 															},
 															{
 																"Header": {
@@ -2990,7 +3222,8 @@
 																			"Type": 16
 																		},
 																		"Type": "EFI_SECTION_PE32",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 1358294
 																	},
 																	{
 																		"Header": {
@@ -2998,7 +3231,8 @@
 																		},
 																		"Type": "EFI_SECTION_USER_INTERFACE",
 																		"ExtractPath": "",
-																		"Name": "ScsiDisk"
+																		"Name": "ScsiDisk",
+																		"AbsOffSet": 1398170
 																	},
 																	{
 																		"Header": {
@@ -3006,11 +3240,13 @@
 																		},
 																		"Type": "EFI_SECTION_VERSION",
 																		"ExtractPath": "",
-																		"Version": "1.0"
+																		"Version": "1.0",
+																		"AbsOffSet": 1398192
 																	}
 																],
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 1358270
 															},
 															{
 																"Header": {
@@ -3028,7 +3264,8 @@
 																			"Type": 16
 																		},
 																		"Type": "EFI_SECTION_PE32",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 1398232
 																	},
 																	{
 																		"Header": {
@@ -3036,7 +3273,8 @@
 																		},
 																		"Type": "EFI_SECTION_USER_INTERFACE",
 																		"ExtractPath": "",
-																		"Name": "SataController"
+																		"Name": "SataController",
+																		"AbsOffSet": 1412060
 																	},
 																	{
 																		"Header": {
@@ -3044,11 +3282,13 @@
 																		},
 																		"Type": "EFI_SECTION_VERSION",
 																		"ExtractPath": "",
-																		"Version": "1.0"
+																		"Version": "1.0",
+																		"AbsOffSet": 1412094
 																	}
 																],
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 1398208
 															},
 															{
 																"Header": {
@@ -3066,7 +3306,8 @@
 																			"Type": 16
 																		},
 																		"Type": "EFI_SECTION_PE32",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 1412134
 																	},
 																	{
 																		"Header": {
@@ -3074,7 +3315,8 @@
 																		},
 																		"Type": "EFI_SECTION_USER_INTERFACE",
 																		"ExtractPath": "",
-																		"Name": "AtaAtapiPassThruDxe"
+																		"Name": "AtaAtapiPassThruDxe",
+																		"AbsOffSet": 1453802
 																	},
 																	{
 																		"Header": {
@@ -3082,11 +3324,13 @@
 																		},
 																		"Type": "EFI_SECTION_VERSION",
 																		"ExtractPath": "",
-																		"Version": "1.0"
+																		"Version": "1.0",
+																		"AbsOffSet": 1453846
 																	}
 																],
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 1412110
 															},
 															{
 																"Header": {
@@ -3104,7 +3348,8 @@
 																			"Type": 16
 																		},
 																		"Type": "EFI_SECTION_PE32",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 1453884
 																	},
 																	{
 																		"Header": {
@@ -3112,7 +3357,8 @@
 																		},
 																		"Type": "EFI_SECTION_USER_INTERFACE",
 																		"ExtractPath": "",
-																		"Name": "AtaBusDxe"
+																		"Name": "AtaBusDxe",
+																		"AbsOffSet": 1481408
 																	},
 																	{
 																		"Header": {
@@ -3120,11 +3366,13 @@
 																		},
 																		"Type": "EFI_SECTION_VERSION",
 																		"ExtractPath": "",
-																		"Version": "1.0"
+																		"Version": "1.0",
+																		"AbsOffSet": 1481432
 																	}
 																],
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 1453860
 															},
 															{
 																"Header": {
@@ -3142,7 +3390,8 @@
 																			"Type": 16
 																		},
 																		"Type": "EFI_SECTION_PE32",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 1481470
 																	},
 																	{
 																		"Header": {
@@ -3150,7 +3399,8 @@
 																		},
 																		"Type": "EFI_SECTION_USER_INTERFACE",
 																		"ExtractPath": "",
-																		"Name": "NvmExpressDxe"
+																		"Name": "NvmExpressDxe",
+																		"AbsOffSet": 1524610
 																	},
 																	{
 																		"Header": {
@@ -3158,11 +3408,13 @@
 																		},
 																		"Type": "EFI_SECTION_VERSION",
 																		"ExtractPath": "",
-																		"Version": "1.0"
+																		"Version": "1.0",
+																		"AbsOffSet": 1524642
 																	}
 																],
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 1481446
 															},
 															{
 																"Header": {
@@ -3200,14 +3452,16 @@
 																			{
 																				"OpCode": "END"
 																			}
-																		]
+																		],
+																		"AbsOffSet": 1524680
 																	},
 																	{
 																		"Header": {
 																			"Type": 16
 																		},
 																		"Type": "EFI_SECTION_PE32",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 1524720
 																	},
 																	{
 																		"Header": {
@@ -3215,7 +3469,8 @@
 																		},
 																		"Type": "EFI_SECTION_USER_INTERFACE",
 																		"ExtractPath": "",
-																		"Name": "HiiDatabase"
+																		"Name": "HiiDatabase",
+																		"AbsOffSet": 1649268
 																	},
 																	{
 																		"Header": {
@@ -3223,11 +3478,13 @@
 																		},
 																		"Type": "EFI_SECTION_VERSION",
 																		"ExtractPath": "",
-																		"Version": "1.0"
+																		"Version": "1.0",
+																		"AbsOffSet": 1649296
 																	}
 																],
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 1524656
 															},
 															{
 																"Header": {
@@ -3292,14 +3549,16 @@
 																			{
 																				"OpCode": "END"
 																			}
-																		]
+																		],
+																		"AbsOffSet": 1649334
 																	},
 																	{
 																		"Header": {
 																			"Type": 16
 																		},
 																		"Type": "EFI_SECTION_PE32",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 1649428
 																	},
 																	{
 																		"Header": {
@@ -3307,7 +3566,8 @@
 																		},
 																		"Type": "EFI_SECTION_USER_INTERFACE",
 																		"ExtractPath": "",
-																		"Name": "SetupBrowser"
+																		"Name": "SetupBrowser",
+																		"AbsOffSet": 1755928
 																	},
 																	{
 																		"Header": {
@@ -3315,11 +3575,13 @@
 																		},
 																		"Type": "EFI_SECTION_VERSION",
 																		"ExtractPath": "",
-																		"Version": "2.0"
+																		"Version": "2.0",
+																		"AbsOffSet": 1755958
 																	}
 																],
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 1649310
 															},
 															{
 																"Header": {
@@ -3393,21 +3655,24 @@
 																			{
 																				"OpCode": "END"
 																			}
-																		]
+																		],
+																		"AbsOffSet": 1756000
 																	},
 																	{
 																		"Header": {
 																			"Type": 25
 																		},
 																		"Type": "EFI_SECTION_RAW",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 1756112
 																	},
 																	{
 																		"Header": {
 																			"Type": 16
 																		},
 																		"Type": "EFI_SECTION_PE32",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 1756140
 																	},
 																	{
 																		"Header": {
@@ -3415,7 +3680,8 @@
 																		},
 																		"Type": "EFI_SECTION_USER_INTERFACE",
 																		"ExtractPath": "",
-																		"Name": "DisplayEngine"
+																		"Name": "DisplayEngine",
+																		"AbsOffSet": 1836464
 																	},
 																	{
 																		"Header": {
@@ -3423,11 +3689,13 @@
 																		},
 																		"Type": "EFI_SECTION_VERSION",
 																		"ExtractPath": "",
-																		"Version": "1.0"
+																		"Version": "1.0",
+																		"AbsOffSet": 1836496
 																	}
 																],
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 1755976
 															},
 															{
 																"Header": {
@@ -3465,14 +3733,16 @@
 																			{
 																				"OpCode": "END"
 																			}
-																		]
+																		],
+																		"AbsOffSet": 1836534
 																	},
 																	{
 																		"Header": {
 																			"Type": 16
 																		},
 																		"Type": "EFI_SECTION_PE32",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 1836574
 																	},
 																	{
 																		"Header": {
@@ -3480,7 +3750,8 @@
 																		},
 																		"Type": "EFI_SECTION_USER_INTERFACE",
 																		"ExtractPath": "",
-																		"Name": "NullMemoryTestDxe"
+																		"Name": "NullMemoryTestDxe",
+																		"AbsOffSet": 1845474
 																	},
 																	{
 																		"Header": {
@@ -3488,11 +3759,13 @@
 																		},
 																		"Type": "EFI_SECTION_VERSION",
 																		"ExtractPath": "",
-																		"Version": "1.0"
+																		"Version": "1.0",
+																		"AbsOffSet": 1845514
 																	}
 																],
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 1836510
 															},
 															{
 																"Header": {
@@ -3510,7 +3783,8 @@
 																			"Type": 16
 																		},
 																		"Type": "EFI_SECTION_PE32",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 1845552
 																	},
 																	{
 																		"Header": {
@@ -3518,7 +3792,8 @@
 																		},
 																		"Type": "EFI_SECTION_USER_INTERFACE",
 																		"ExtractPath": "",
-																		"Name": "IsaAcpi"
+																		"Name": "IsaAcpi",
+																		"AbsOffSet": 1856884
 																	},
 																	{
 																		"Header": {
@@ -3526,11 +3801,13 @@
 																		},
 																		"Type": "EFI_SECTION_VERSION",
 																		"ExtractPath": "",
-																		"Version": "1.0"
+																		"Version": "1.0",
+																		"AbsOffSet": 1856904
 																	}
 																],
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 1845528
 															},
 															{
 																"Header": {
@@ -3548,7 +3825,8 @@
 																			"Type": 16
 																		},
 																		"Type": "EFI_SECTION_PE32",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 1856942
 																	},
 																	{
 																		"Header": {
@@ -3556,7 +3834,8 @@
 																		},
 																		"Type": "EFI_SECTION_USER_INTERFACE",
 																		"ExtractPath": "",
-																		"Name": "IsaBusDxe"
+																		"Name": "IsaBusDxe",
+																		"AbsOffSet": 1873522
 																	},
 																	{
 																		"Header": {
@@ -3564,11 +3843,13 @@
 																		},
 																		"Type": "EFI_SECTION_VERSION",
 																		"ExtractPath": "",
-																		"Version": "1.0"
+																		"Version": "1.0",
+																		"AbsOffSet": 1873546
 																	}
 																],
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 1856918
 															},
 															{
 																"Header": {
@@ -3586,7 +3867,8 @@
 																			"Type": 16
 																		},
 																		"Type": "EFI_SECTION_PE32",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 1873584
 																	},
 																	{
 																		"Header": {
@@ -3594,7 +3876,8 @@
 																		},
 																		"Type": "EFI_SECTION_USER_INTERFACE",
 																		"ExtractPath": "",
-																		"Name": "IsaSerialDxe"
+																		"Name": "IsaSerialDxe",
+																		"AbsOffSet": 1894900
 																	},
 																	{
 																		"Header": {
@@ -3602,11 +3885,13 @@
 																		},
 																		"Type": "EFI_SECTION_VERSION",
 																		"ExtractPath": "",
-																		"Version": "1.0"
+																		"Version": "1.0",
+																		"AbsOffSet": 1894930
 																	}
 																],
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 1873560
 															},
 															{
 																"Header": {
@@ -3624,7 +3909,8 @@
 																			"Type": 16
 																		},
 																		"Type": "EFI_SECTION_PE32",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 1894970
 																	},
 																	{
 																		"Header": {
@@ -3632,7 +3918,8 @@
 																		},
 																		"Type": "EFI_SECTION_USER_INTERFACE",
 																		"ExtractPath": "",
-																		"Name": "Ps2KeyboardDxe"
+																		"Name": "Ps2KeyboardDxe",
+																		"AbsOffSet": 1919102
 																	},
 																	{
 																		"Header": {
@@ -3640,11 +3927,13 @@
 																		},
 																		"Type": "EFI_SECTION_VERSION",
 																		"ExtractPath": "",
-																		"Version": "1.0"
+																		"Version": "1.0",
+																		"AbsOffSet": 1919136
 																	}
 																],
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 1894946
 															},
 															{
 																"Header": {
@@ -3662,7 +3951,8 @@
 																			"Type": 16
 																		},
 																		"Type": "EFI_SECTION_PE32",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 1919176
 																	},
 																	{
 																		"Header": {
@@ -3670,7 +3960,8 @@
 																		},
 																		"Type": "EFI_SECTION_USER_INTERFACE",
 																		"ExtractPath": "",
-																		"Name": "IsaFloppyDxe"
+																		"Name": "IsaFloppyDxe",
+																		"AbsOffSet": 1940620
 																	},
 																	{
 																		"Header": {
@@ -3678,11 +3969,13 @@
 																		},
 																		"Type": "EFI_SECTION_VERSION",
 																		"ExtractPath": "",
-																		"Version": "1.0"
+																		"Version": "1.0",
+																		"AbsOffSet": 1940650
 																	}
 																],
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 1919152
 															},
 															{
 																"Header": {
@@ -3744,14 +4037,16 @@
 																			{
 																				"OpCode": "END"
 																			}
-																		]
+																		],
+																		"AbsOffSet": 1940690
 																	},
 																	{
 																		"Header": {
 																			"Type": 16
 																		},
 																		"Type": "EFI_SECTION_PE32",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 1940768
 																	},
 																	{
 																		"Header": {
@@ -3759,7 +4054,8 @@
 																		},
 																		"Type": "EFI_SECTION_USER_INTERFACE",
 																		"ExtractPath": "",
-																		"Name": "SmbiosDxe"
+																		"Name": "SmbiosDxe",
+																		"AbsOffSet": 1963364
 																	},
 																	{
 																		"Header": {
@@ -3767,11 +4063,13 @@
 																		},
 																		"Type": "EFI_SECTION_VERSION",
 																		"ExtractPath": "",
-																		"Version": "1.0"
+																		"Version": "1.0",
+																		"AbsOffSet": 1963388
 																	}
 																],
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 1940666
 															},
 															{
 																"Header": {
@@ -3836,14 +4134,16 @@
 																			{
 																				"OpCode": "END"
 																			}
-																		]
+																		],
+																		"AbsOffSet": 1963428
 																	},
 																	{
 																		"Header": {
 																			"Type": 16
 																		},
 																		"Type": "EFI_SECTION_PE32",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 1963522
 																	},
 																	{
 																		"Header": {
@@ -3851,7 +4151,8 @@
 																		},
 																		"Type": "EFI_SECTION_USER_INTERFACE",
 																		"ExtractPath": "",
-																		"Name": "SmbiosPlatformDxe"
+																		"Name": "SmbiosPlatformDxe",
+																		"AbsOffSet": 1976966
 																	},
 																	{
 																		"Header": {
@@ -3859,11 +4160,13 @@
 																		},
 																		"Type": "EFI_SECTION_VERSION",
 																		"ExtractPath": "",
-																		"Version": "1.0"
+																		"Version": "1.0",
+																		"AbsOffSet": 1977006
 																	}
 																],
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 1963404
 															},
 															{
 																"Header": {
@@ -3901,14 +4204,16 @@
 																			{
 																				"OpCode": "END"
 																			}
-																		]
+																		],
+																		"AbsOffSet": 1977046
 																	},
 																	{
 																		"Header": {
 																			"Type": 16
 																		},
 																		"Type": "EFI_SECTION_PE32",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 1977086
 																	},
 																	{
 																		"Header": {
@@ -3916,7 +4221,8 @@
 																		},
 																		"Type": "EFI_SECTION_USER_INTERFACE",
 																		"ExtractPath": "",
-																		"Name": "AcpiTableDxe"
+																		"Name": "AcpiTableDxe",
+																		"AbsOffSet": 2006466
 																	},
 																	{
 																		"Header": {
@@ -3924,11 +4230,13 @@
 																		},
 																		"Type": "EFI_SECTION_VERSION",
 																		"ExtractPath": "",
-																		"Version": "1.0"
+																		"Version": "1.0",
+																		"AbsOffSet": 2006496
 																	}
 																],
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 1977022
 															},
 															{
 																"Header": {
@@ -3993,14 +4301,16 @@
 																			{
 																				"OpCode": "END"
 																			}
-																		]
+																		],
+																		"AbsOffSet": 2006536
 																	},
 																	{
 																		"Header": {
 																			"Type": 16
 																		},
 																		"Type": "EFI_SECTION_PE32",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 2006630
 																	},
 																	{
 																		"Header": {
@@ -4008,7 +4318,8 @@
 																		},
 																		"Type": "EFI_SECTION_USER_INTERFACE",
 																		"ExtractPath": "",
-																		"Name": "AcpiPlatform"
+																		"Name": "AcpiPlatform",
+																		"AbsOffSet": 2040362
 																	},
 																	{
 																		"Header": {
@@ -4016,11 +4327,13 @@
 																		},
 																		"Type": "EFI_SECTION_VERSION",
 																		"ExtractPath": "",
-																		"Version": "1.0"
+																		"Version": "1.0",
+																		"AbsOffSet": 2040392
 																	}
 																],
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 2006512
 															},
 															{
 																"Header": {
@@ -4038,39 +4351,45 @@
 																			"Type": 25
 																		},
 																		"Type": "EFI_SECTION_RAW",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 2040434
 																	},
 																	{
 																		"Header": {
 																			"Type": 25
 																		},
 																		"Type": "EFI_SECTION_RAW",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 2040854
 																	},
 																	{
 																		"Header": {
 																			"Type": 25
 																		},
 																		"Type": "EFI_SECTION_RAW",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 2041082
 																	},
 																	{
 																		"Header": {
 																			"Type": 25
 																		},
 																		"Type": "EFI_SECTION_RAW",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 2041342
 																	},
 																	{
 																		"Header": {
 																			"Type": 25
 																		},
 																		"Type": "EFI_SECTION_RAW",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 2044761
 																	}
 																],
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 2040410
 															},
 															{
 																"Header": {
@@ -4132,14 +4451,16 @@
 																			{
 																				"OpCode": "END"
 																			}
-																		]
+																		],
+																		"AbsOffSet": 2044826
 																	},
 																	{
 																		"Header": {
 																			"Type": 16
 																		},
 																		"Type": "EFI_SECTION_PE32",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 2044904
 																	},
 																	{
 																		"Header": {
@@ -4147,7 +4468,8 @@
 																		},
 																		"Type": "EFI_SECTION_USER_INTERFACE",
 																		"ExtractPath": "",
-																		"Name": "S3SaveStateDxe"
+																		"Name": "S3SaveStateDxe",
+																		"AbsOffSet": 2072492
 																	},
 																	{
 																		"Header": {
@@ -4155,11 +4477,13 @@
 																		},
 																		"Type": "EFI_SECTION_VERSION",
 																		"ExtractPath": "",
-																		"Version": "1.0"
+																		"Version": "1.0",
+																		"AbsOffSet": 2072526
 																	}
 																],
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 2044802
 															},
 															{
 																"Header": {
@@ -4224,14 +4548,16 @@
 																			{
 																				"OpCode": "END"
 																			}
-																		]
+																		],
+																		"AbsOffSet": 2072568
 																	},
 																	{
 																		"Header": {
 																			"Type": 16
 																		},
 																		"Type": "EFI_SECTION_PE32",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 2072662
 																	},
 																	{
 																		"Header": {
@@ -4239,7 +4565,8 @@
 																		},
 																		"Type": "EFI_SECTION_USER_INTERFACE",
 																		"ExtractPath": "",
-																		"Name": "BootScriptExecutorDxe"
+																		"Name": "BootScriptExecutorDxe",
+																		"AbsOffSet": 2131610
 																	},
 																	{
 																		"Header": {
@@ -4247,11 +4574,13 @@
 																		},
 																		"Type": "EFI_SECTION_VERSION",
 																		"ExtractPath": "",
-																		"Version": "1.0"
+																		"Version": "1.0",
+																		"AbsOffSet": 2131658
 																	}
 																],
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 2072544
 															},
 															{
 																"Header": {
@@ -4269,7 +4598,8 @@
 																			"Type": 16
 																		},
 																		"Type": "EFI_SECTION_PE32",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 2131698
 																	},
 																	{
 																		"Header": {
@@ -4277,7 +4607,8 @@
 																		},
 																		"Type": "EFI_SECTION_USER_INTERFACE",
 																		"ExtractPath": "",
-																		"Name": "BootGraphicsResourceTableDxe"
+																		"Name": "BootGraphicsResourceTableDxe",
+																		"AbsOffSet": 2142134
 																	},
 																	{
 																		"Header": {
@@ -4285,11 +4616,13 @@
 																		},
 																		"Type": "EFI_SECTION_VERSION",
 																		"ExtractPath": "",
-																		"Version": "1.0"
+																		"Version": "1.0",
+																		"AbsOffSet": 2142196
 																	}
 																],
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 2131674
 															},
 															{
 																"Header": {
@@ -4307,7 +4640,8 @@
 																			"Type": 16
 																		},
 																		"Type": "EFI_SECTION_PE32",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 2142236
 																	},
 																	{
 																		"Header": {
@@ -4315,7 +4649,8 @@
 																		},
 																		"Type": "EFI_SECTION_USER_INTERFACE",
 																		"ExtractPath": "",
-																		"Name": "Fat"
+																		"Name": "Fat",
+																		"AbsOffSet": 2184928
 																	},
 																	{
 																		"Header": {
@@ -4323,11 +4658,13 @@
 																		},
 																		"Type": "EFI_SECTION_VERSION",
 																		"ExtractPath": "",
-																		"Version": "1.0"
+																		"Version": "1.0",
+																		"AbsOffSet": 2184940
 																	}
 																],
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 2142212
 															},
 															{
 																"Header": {
@@ -4392,14 +4729,16 @@
 																			{
 																				"OpCode": "END"
 																			}
-																		]
+																		],
+																		"AbsOffSet": 2184978
 																	},
 																	{
 																		"Header": {
 																			"Type": 16
 																		},
 																		"Type": "EFI_SECTION_PE32",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 2185072
 																	},
 																	{
 																		"Header": {
@@ -4407,7 +4746,8 @@
 																		},
 																		"Type": "EFI_SECTION_USER_INTERFACE",
 																		"ExtractPath": "",
-																		"Name": "tftpDynamicCommand"
+																		"Name": "tftpDynamicCommand",
+																		"AbsOffSet": 2229300
 																	},
 																	{
 																		"Header": {
@@ -4415,11 +4755,13 @@
 																		},
 																		"Type": "EFI_SECTION_VERSION",
 																		"ExtractPath": "",
-																		"Version": "1.0"
+																		"Version": "1.0",
+																		"AbsOffSet": 2229342
 																	}
 																],
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 2184954
 															},
 															{
 																"Header": {
@@ -4437,14 +4779,16 @@
 																			"Type": 16
 																		},
 																		"Type": "EFI_SECTION_PE32",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 2229384
 																	},
 																	{
 																		"Header": {
 																			"Type": 25
 																		},
 																		"Type": "EFI_SECTION_RAW",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 3149516
 																	},
 																	{
 																		"Header": {
@@ -4452,7 +4796,8 @@
 																		},
 																		"Type": "EFI_SECTION_USER_INTERFACE",
 																		"ExtractPath": "",
-																		"Name": "Shell"
+																		"Name": "Shell",
+																		"AbsOffSet": 3149544
 																	},
 																	{
 																		"Header": {
@@ -4460,11 +4805,13 @@
 																		},
 																		"Type": "EFI_SECTION_VERSION",
 																		"ExtractPath": "",
-																		"Version": "1.0"
+																		"Version": "1.0",
+																		"AbsOffSet": 3149560
 																	}
 																],
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 2229360
 															},
 															{
 																"Header": {
@@ -4511,14 +4858,16 @@
 																			{
 																				"OpCode": "END"
 																			}
-																		]
+																		],
+																		"AbsOffSet": 3149598
 																	},
 																	{
 																		"Header": {
 																			"Type": 16
 																		},
 																		"Type": "EFI_SECTION_PE32",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 3149656
 																	},
 																	{
 																		"Header": {
@@ -4526,7 +4875,8 @@
 																		},
 																		"Type": "EFI_SECTION_USER_INTERFACE",
 																		"ExtractPath": "",
-																		"Name": "LogoDxe"
+																		"Name": "LogoDxe",
+																		"AbsOffSet": 3169244
 																	},
 																	{
 																		"Header": {
@@ -4534,11 +4884,13 @@
 																		},
 																		"Type": "EFI_SECTION_VERSION",
 																		"ExtractPath": "",
-																		"Version": "1.0"
+																		"Version": "1.0",
+																		"AbsOffSet": 3169264
 																	}
 																],
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 3149574
 															},
 															{
 																"Header": {
@@ -4556,7 +4908,8 @@
 																			"Type": 16
 																		},
 																		"Type": "EFI_SECTION_PE32",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 3169304
 																	},
 																	{
 																		"Header": {
@@ -4564,7 +4917,8 @@
 																		},
 																		"Type": "EFI_SECTION_USER_INTERFACE",
 																		"ExtractPath": "",
-																		"Name": "SnpDxe"
+																		"Name": "SnpDxe",
+																		"AbsOffSet": 3200860
 																	},
 																	{
 																		"Header": {
@@ -4572,11 +4926,13 @@
 																		},
 																		"Type": "EFI_SECTION_VERSION",
 																		"ExtractPath": "",
-																		"Version": "1.0"
+																		"Version": "1.0",
+																		"AbsOffSet": 3200878
 																	}
 																],
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 3169280
 															},
 															{
 																"Header": {
@@ -4605,14 +4961,16 @@
 																			{
 																				"OpCode": "END"
 																			}
-																		]
+																		],
+																		"AbsOffSet": 3200918
 																	},
 																	{
 																		"Header": {
 																			"Type": 16
 																		},
 																		"Type": "EFI_SECTION_PE32",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 3200940
 																	},
 																	{
 																		"Header": {
@@ -4620,7 +4978,8 @@
 																		},
 																		"Type": "EFI_SECTION_USER_INTERFACE",
 																		"ExtractPath": "",
-																		"Name": "DpcDxe"
+																		"Name": "DpcDxe",
+																		"AbsOffSet": 3209776
 																	},
 																	{
 																		"Header": {
@@ -4628,11 +4987,13 @@
 																		},
 																		"Type": "EFI_SECTION_VERSION",
 																		"ExtractPath": "",
-																		"Version": "1.0"
+																		"Version": "1.0",
+																		"AbsOffSet": 3209794
 																	}
 																],
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 3200894
 															},
 															{
 																"Header": {
@@ -4650,7 +5011,8 @@
 																			"Type": 16
 																		},
 																		"Type": "EFI_SECTION_PE32",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 3209836
 																	},
 																	{
 																		"Header": {
@@ -4658,7 +5020,8 @@
 																		},
 																		"Type": "EFI_SECTION_USER_INTERFACE",
 																		"ExtractPath": "",
-																		"Name": "MnpDxe"
+																		"Name": "MnpDxe",
+																		"AbsOffSet": 3255728
 																	},
 																	{
 																		"Header": {
@@ -4666,11 +5029,13 @@
 																		},
 																		"Type": "EFI_SECTION_VERSION",
 																		"ExtractPath": "",
-																		"Version": "1.0"
+																		"Version": "1.0",
+																		"AbsOffSet": 3255746
 																	}
 																],
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 3209812
 															},
 															{
 																"Header": {
@@ -4688,14 +5053,16 @@
 																			"Type": 25
 																		},
 																		"Type": "EFI_SECTION_RAW",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 3255786
 																	},
 																	{
 																		"Header": {
 																			"Type": 16
 																		},
 																		"Type": "EFI_SECTION_PE32",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 3255838
 																	},
 																	{
 																		"Header": {
@@ -4703,7 +5070,8 @@
 																		},
 																		"Type": "EFI_SECTION_USER_INTERFACE",
 																		"ExtractPath": "",
-																		"Name": "VlanConfigDxe"
+																		"Name": "VlanConfigDxe",
+																		"AbsOffSet": 3285602
 																	},
 																	{
 																		"Header": {
@@ -4711,11 +5079,13 @@
 																		},
 																		"Type": "EFI_SECTION_VERSION",
 																		"ExtractPath": "",
-																		"Version": "1.0"
+																		"Version": "1.0",
+																		"AbsOffSet": 3285634
 																	}
 																],
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 3255762
 															},
 															{
 																"Header": {
@@ -4733,7 +5103,8 @@
 																			"Type": 16
 																		},
 																		"Type": "EFI_SECTION_PE32",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 3285672
 																	},
 																	{
 																		"Header": {
@@ -4741,7 +5112,8 @@
 																		},
 																		"Type": "EFI_SECTION_USER_INTERFACE",
 																		"ExtractPath": "",
-																		"Name": "ArpDxe"
+																		"Name": "ArpDxe",
+																		"AbsOffSet": 3311596
 																	},
 																	{
 																		"Header": {
@@ -4749,11 +5121,13 @@
 																		},
 																		"Type": "EFI_SECTION_VERSION",
 																		"ExtractPath": "",
-																		"Version": "1.0"
+																		"Version": "1.0",
+																		"AbsOffSet": 3311614
 																	}
 																],
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 3285648
 															},
 															{
 																"Header": {
@@ -4771,7 +5145,8 @@
 																			"Type": 16
 																		},
 																		"Type": "EFI_SECTION_PE32",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 3311654
 																	},
 																	{
 																		"Header": {
@@ -4779,7 +5154,8 @@
 																		},
 																		"Type": "EFI_SECTION_USER_INTERFACE",
 																		"ExtractPath": "",
-																		"Name": "Dhcp4Dxe"
+																		"Name": "Dhcp4Dxe",
+																		"AbsOffSet": 3356970
 																	},
 																	{
 																		"Header": {
@@ -4787,11 +5163,13 @@
 																		},
 																		"Type": "EFI_SECTION_VERSION",
 																		"ExtractPath": "",
-																		"Version": "1.0"
+																		"Version": "1.0",
+																		"AbsOffSet": 3356992
 																	}
 																],
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 3311630
 															},
 															{
 																"Header": {
@@ -4809,14 +5187,16 @@
 																			"Type": 25
 																		},
 																		"Type": "EFI_SECTION_RAW",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 3357032
 																	},
 																	{
 																		"Header": {
 																			"Type": 16
 																		},
 																		"Type": "EFI_SECTION_PE32",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 3357084
 																	},
 																	{
 																		"Header": {
@@ -4824,7 +5204,8 @@
 																		},
 																		"Type": "EFI_SECTION_USER_INTERFACE",
 																		"ExtractPath": "",
-																		"Name": "Ip4Dxe"
+																		"Name": "Ip4Dxe",
+																		"AbsOffSet": 3439904
 																	},
 																	{
 																		"Header": {
@@ -4832,11 +5213,13 @@
 																		},
 																		"Type": "EFI_SECTION_VERSION",
 																		"ExtractPath": "",
-																		"Version": "1.0"
+																		"Version": "1.0",
+																		"AbsOffSet": 3439922
 																	}
 																],
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 3357008
 															},
 															{
 																"Header": {
@@ -4854,7 +5237,8 @@
 																			"Type": 16
 																		},
 																		"Type": "EFI_SECTION_PE32",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 3439962
 																	},
 																	{
 																		"Header": {
@@ -4862,7 +5246,8 @@
 																		},
 																		"Type": "EFI_SECTION_USER_INTERFACE",
 																		"ExtractPath": "",
-																		"Name": "Mtftp4Dxe"
+																		"Name": "Mtftp4Dxe",
+																		"AbsOffSet": 3480158
 																	},
 																	{
 																		"Header": {
@@ -4870,11 +5255,13 @@
 																		},
 																		"Type": "EFI_SECTION_VERSION",
 																		"ExtractPath": "",
-																		"Version": "1.0"
+																		"Version": "1.0",
+																		"AbsOffSet": 3480182
 																	}
 																],
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 3439938
 															},
 															{
 																"Header": {
@@ -4892,7 +5279,8 @@
 																			"Type": 16
 																		},
 																		"Type": "EFI_SECTION_PE32",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 3480220
 																	},
 																	{
 																		"Header": {
@@ -4900,7 +5288,8 @@
 																		},
 																		"Type": "EFI_SECTION_USER_INTERFACE",
 																		"ExtractPath": "",
-																		"Name": "Udp4Dxe"
+																		"Name": "Udp4Dxe",
+																		"AbsOffSet": 3518752
 																	},
 																	{
 																		"Header": {
@@ -4908,11 +5297,13 @@
 																		},
 																		"Type": "EFI_SECTION_VERSION",
 																		"ExtractPath": "",
-																		"Version": "1.0"
+																		"Version": "1.0",
+																		"AbsOffSet": 3518772
 																	}
 																],
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 3480196
 															},
 															{
 																"Header": {
@@ -4930,7 +5321,8 @@
 																			"Type": 16
 																		},
 																		"Type": "EFI_SECTION_PE32",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 3518810
 																	},
 																	{
 																		"Header": {
@@ -4938,7 +5330,8 @@
 																		},
 																		"Type": "EFI_SECTION_USER_INTERFACE",
 																		"ExtractPath": "",
-																		"Name": "Tcp4Dxe"
+																		"Name": "Tcp4Dxe",
+																		"AbsOffSet": 3588830
 																	},
 																	{
 																		"Header": {
@@ -4946,11 +5339,13 @@
 																		},
 																		"Type": "EFI_SECTION_VERSION",
 																		"ExtractPath": "",
-																		"Version": "1.0"
+																		"Version": "1.0",
+																		"AbsOffSet": 3588850
 																	}
 																],
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 3518786
 															},
 															{
 																"Header": {
@@ -4968,7 +5363,8 @@
 																			"Type": 16
 																		},
 																		"Type": "EFI_SECTION_PE32",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 3588888
 																	},
 																	{
 																		"Header": {
@@ -4976,7 +5372,8 @@
 																		},
 																		"Type": "EFI_SECTION_USER_INTERFACE",
 																		"ExtractPath": "",
-																		"Name": "UefiPxe4BcDxe"
+																		"Name": "UefiPxe4BcDxe",
+																		"AbsOffSet": 3633244
 																	},
 																	{
 																		"Header": {
@@ -4984,11 +5381,13 @@
 																		},
 																		"Type": "EFI_SECTION_VERSION",
 																		"ExtractPath": "",
-																		"Version": "1.0"
+																		"Version": "1.0",
+																		"AbsOffSet": 3633276
 																	}
 																],
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 3588864
 															},
 															{
 																"Header": {
@@ -5006,14 +5405,16 @@
 																			"Type": 25
 																		},
 																		"Type": "EFI_SECTION_RAW",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 3633314
 																	},
 																	{
 																		"Header": {
 																			"Type": 16
 																		},
 																		"Type": "EFI_SECTION_PE32",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 3633366
 																	},
 																	{
 																		"Header": {
@@ -5021,7 +5422,8 @@
 																		},
 																		"Type": "EFI_SECTION_USER_INTERFACE",
 																		"ExtractPath": "",
-																		"Name": "IScsi4Dxe"
+																		"Name": "IScsi4Dxe",
+																		"AbsOffSet": 3708634
 																	},
 																	{
 																		"Header": {
@@ -5029,11 +5431,13 @@
 																		},
 																		"Type": "EFI_SECTION_VERSION",
 																		"ExtractPath": "",
-																		"Version": "1.0"
+																		"Version": "1.0",
+																		"AbsOffSet": 3708658
 																	}
 																],
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 3633290
 															},
 															{
 																"Header": {
@@ -5051,7 +5455,8 @@
 																			"Type": 16
 																		},
 																		"Type": "EFI_SECTION_PE32",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 3708696
 																	},
 																	{
 																		"Header": {
@@ -5059,7 +5464,8 @@
 																		},
 																		"Type": "EFI_SECTION_USER_INTERFACE",
 																		"ExtractPath": "",
-																		"Name": "VirtioNetDxe"
+																		"Name": "VirtioNetDxe",
+																		"AbsOffSet": 3732764
 																	},
 																	{
 																		"Header": {
@@ -5067,11 +5473,13 @@
 																		},
 																		"Type": "EFI_SECTION_VERSION",
 																		"ExtractPath": "",
-																		"Version": "1.0"
+																		"Version": "1.0",
+																		"AbsOffSet": 3732794
 																	}
 																],
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 3708672
 															},
 															{
 																"Header": {
@@ -5089,7 +5497,8 @@
 																			"Type": 16
 																		},
 																		"Type": "EFI_SECTION_PE32",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 3732834
 																	},
 																	{
 																		"Header": {
@@ -5097,7 +5506,8 @@
 																		},
 																		"Type": "EFI_SECTION_USER_INTERFACE",
 																		"ExtractPath": "",
-																		"Name": "UhciDxe"
+																		"Name": "UhciDxe",
+																		"AbsOffSet": 3763174
 																	},
 																	{
 																		"Header": {
@@ -5105,11 +5515,13 @@
 																		},
 																		"Type": "EFI_SECTION_VERSION",
 																		"ExtractPath": "",
-																		"Version": "1.0"
+																		"Version": "1.0",
+																		"AbsOffSet": 3763194
 																	}
 																],
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 3732810
 															},
 															{
 																"Header": {
@@ -5127,7 +5539,8 @@
 																			"Type": 16
 																		},
 																		"Type": "EFI_SECTION_PE32",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 3763232
 																	},
 																	{
 																		"Header": {
@@ -5135,7 +5548,8 @@
 																		},
 																		"Type": "EFI_SECTION_USER_INTERFACE",
 																		"ExtractPath": "",
-																		"Name": "EhciDxe"
+																		"Name": "EhciDxe",
+																		"AbsOffSet": 3800228
 																	},
 																	{
 																		"Header": {
@@ -5143,11 +5557,13 @@
 																		},
 																		"Type": "EFI_SECTION_VERSION",
 																		"ExtractPath": "",
-																		"Version": "1.0"
+																		"Version": "1.0",
+																		"AbsOffSet": 3800248
 																	}
 																],
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 3763208
 															},
 															{
 																"Header": {
@@ -5165,7 +5581,8 @@
 																			"Type": 16
 																		},
 																		"Type": "EFI_SECTION_PE32",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 3800286
 																	},
 																	{
 																		"Header": {
@@ -5173,7 +5590,8 @@
 																		},
 																		"Type": "EFI_SECTION_USER_INTERFACE",
 																		"ExtractPath": "",
-																		"Name": "XhciDxe"
+																		"Name": "XhciDxe",
+																		"AbsOffSet": 3854626
 																	},
 																	{
 																		"Header": {
@@ -5181,11 +5599,13 @@
 																		},
 																		"Type": "EFI_SECTION_VERSION",
 																		"ExtractPath": "",
-																		"Version": "1.0"
+																		"Version": "1.0",
+																		"AbsOffSet": 3854646
 																	}
 																],
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 3800262
 															},
 															{
 																"Header": {
@@ -5203,7 +5623,8 @@
 																			"Type": 16
 																		},
 																		"Type": "EFI_SECTION_PE32",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 3854684
 																	},
 																	{
 																		"Header": {
@@ -5211,7 +5632,8 @@
 																		},
 																		"Type": "EFI_SECTION_USER_INTERFACE",
 																		"ExtractPath": "",
-																		"Name": "UsbBusDxe"
+																		"Name": "UsbBusDxe",
+																		"AbsOffSet": 3893792
 																	},
 																	{
 																		"Header": {
@@ -5219,11 +5641,13 @@
 																		},
 																		"Type": "EFI_SECTION_VERSION",
 																		"ExtractPath": "",
-																		"Version": "1.0"
+																		"Version": "1.0",
+																		"AbsOffSet": 3893816
 																	}
 																],
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 3854660
 															},
 															{
 																"Header": {
@@ -5241,7 +5665,8 @@
 																			"Type": 16
 																		},
 																		"Type": "EFI_SECTION_PE32",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 3893854
 																	},
 																	{
 																		"Header": {
@@ -5249,7 +5674,8 @@
 																		},
 																		"Type": "EFI_SECTION_USER_INTERFACE",
 																		"ExtractPath": "",
-																		"Name": "UsbKbDxe"
+																		"Name": "UsbKbDxe",
+																		"AbsOffSet": 3921378
 																	},
 																	{
 																		"Header": {
@@ -5257,11 +5683,13 @@
 																		},
 																		"Type": "EFI_SECTION_VERSION",
 																		"ExtractPath": "",
-																		"Version": "1.0"
+																		"Version": "1.0",
+																		"AbsOffSet": 3921400
 																	}
 																],
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 3893830
 															},
 															{
 																"Header": {
@@ -5279,7 +5707,8 @@
 																			"Type": 16
 																		},
 																		"Type": "EFI_SECTION_PE32",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 3921440
 																	},
 																	{
 																		"Header": {
@@ -5287,7 +5716,8 @@
 																		},
 																		"Type": "EFI_SECTION_USER_INTERFACE",
 																		"ExtractPath": "",
-																		"Name": "UsbMassStorageDxe"
+																		"Name": "UsbMassStorageDxe",
+																		"AbsOffSet": 3946212
 																	},
 																	{
 																		"Header": {
@@ -5295,11 +5725,13 @@
 																		},
 																		"Type": "EFI_SECTION_VERSION",
 																		"ExtractPath": "",
-																		"Version": "1.0"
+																		"Version": "1.0",
+																		"AbsOffSet": 3946252
 																	}
 																],
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 3921416
 															},
 															{
 																"Header": {
@@ -5317,7 +5749,8 @@
 																			"Type": 16
 																		},
 																		"Type": "EFI_SECTION_PE32",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 3946290
 																	},
 																	{
 																		"Header": {
@@ -5325,7 +5758,8 @@
 																		},
 																		"Type": "EFI_SECTION_USER_INTERFACE",
 																		"ExtractPath": "",
-																		"Name": "QemuVideoDxe"
+																		"Name": "QemuVideoDxe",
+																		"AbsOffSet": 3974390
 																	},
 																	{
 																		"Header": {
@@ -5333,11 +5767,13 @@
 																		},
 																		"Type": "EFI_SECTION_VERSION",
 																		"ExtractPath": "",
-																		"Version": "1.0"
+																		"Version": "1.0",
+																		"AbsOffSet": 3974420
 																	}
 																],
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 3946266
 															},
 															{
 																"Header": {
@@ -5355,7 +5791,8 @@
 																			"Type": 16
 																		},
 																		"Type": "EFI_SECTION_PE32",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 3974460
 																	},
 																	{
 																		"Header": {
@@ -5363,7 +5800,8 @@
 																		},
 																		"Type": "EFI_SECTION_USER_INTERFACE",
 																		"ExtractPath": "",
-																		"Name": "VirtioGpuDxe"
+																		"Name": "VirtioGpuDxe",
+																		"AbsOffSet": 3999808
 																	},
 																	{
 																		"Header": {
@@ -5371,11 +5809,13 @@
 																		},
 																		"Type": "EFI_SECTION_VERSION",
 																		"ExtractPath": "",
-																		"Version": "1.0"
+																		"Version": "1.0",
+																		"AbsOffSet": 3999838
 																	}
 																],
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 3974436
 															},
 															{
 																"Header": {
@@ -5458,21 +5898,24 @@
 																			{
 																				"OpCode": "END"
 																			}
-																		]
+																		],
+																		"AbsOffSet": 3999878
 																	},
 																	{
 																		"Header": {
 																			"Type": 25
 																		},
 																		"Type": "EFI_SECTION_RAW",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 4000008
 																	},
 																	{
 																		"Header": {
 																			"Type": 16
 																		},
 																		"Type": "EFI_SECTION_PE32",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 4000060
 																	},
 																	{
 																		"Header": {
@@ -5480,7 +5923,8 @@
 																		},
 																		"Type": "EFI_SECTION_USER_INTERFACE",
 																		"ExtractPath": "",
-																		"Name": "PlatformDxe"
+																		"Name": "PlatformDxe",
+																		"AbsOffSet": 4020928
 																	},
 																	{
 																		"Header": {
@@ -5488,11 +5932,13 @@
 																		},
 																		"Type": "EFI_SECTION_VERSION",
 																		"ExtractPath": "",
-																		"Version": "1.0"
+																		"Version": "1.0",
+																		"AbsOffSet": 4020956
 																	}
 																],
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 3999854
 															},
 															{
 																"Header": {
@@ -5530,14 +5976,16 @@
 																			{
 																				"OpCode": "END"
 																			}
-																		]
+																		],
+																		"AbsOffSet": 4020996
 																	},
 																	{
 																		"Header": {
 																			"Type": 16
 																		},
 																		"Type": "EFI_SECTION_PE32",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 4021036
 																	},
 																	{
 																		"Header": {
@@ -5545,7 +5993,8 @@
 																		},
 																		"Type": "EFI_SECTION_USER_INTERFACE",
 																		"ExtractPath": "",
-																		"Name": "AmdSevDxe"
+																		"Name": "AmdSevDxe",
+																		"AbsOffSet": 4031664
 																	},
 																	{
 																		"Header": {
@@ -5553,11 +6002,13 @@
 																		},
 																		"Type": "EFI_SECTION_VERSION",
 																		"ExtractPath": "",
-																		"Version": "1.0"
+																		"Version": "1.0",
+																		"AbsOffSet": 4031688
 																	}
 																],
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 4020972
 															},
 															{
 																"Header": {
@@ -5586,14 +6037,16 @@
 																			{
 																				"OpCode": "END"
 																			}
-																		]
+																		],
+																		"AbsOffSet": 4031726
 																	},
 																	{
 																		"Header": {
 																			"Type": 16
 																		},
 																		"Type": "EFI_SECTION_PE32",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 4031748
 																	},
 																	{
 																		"Header": {
@@ -5601,7 +6054,8 @@
 																		},
 																		"Type": "EFI_SECTION_USER_INTERFACE",
 																		"ExtractPath": "",
-																		"Name": "IoMmuDxe"
+																		"Name": "IoMmuDxe",
+																		"AbsOffSet": 4046536
 																	},
 																	{
 																		"Header": {
@@ -5609,11 +6063,13 @@
 																		},
 																		"Type": "EFI_SECTION_VERSION",
 																		"ExtractPath": "",
-																		"Version": "1.0"
+																		"Version": "1.0",
+																		"AbsOffSet": 4046558
 																	}
 																],
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 4031702
 															},
 															{
 																"Header": {
@@ -5651,14 +6107,16 @@
 																			{
 																				"OpCode": "END"
 																			}
-																		]
+																		],
+																		"AbsOffSet": 4046600
 																	},
 																	{
 																		"Header": {
 																			"Type": 16
 																		},
 																		"Type": "EFI_SECTION_PE32",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 4046640
 																	},
 																	{
 																		"Header": {
@@ -5666,7 +6124,8 @@
 																		},
 																		"Type": "EFI_SECTION_USER_INTERFACE",
 																		"ExtractPath": "",
-																		"Name": "FvbServicesRuntimeDxe"
+																		"Name": "FvbServicesRuntimeDxe",
+																		"AbsOffSet": 4075316
 																	},
 																	{
 																		"Header": {
@@ -5674,11 +6133,13 @@
 																		},
 																		"Type": "EFI_SECTION_VERSION",
 																		"ExtractPath": "",
-																		"Version": "1.0"
+																		"Version": "1.0",
+																		"AbsOffSet": 4075364
 																	}
 																],
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 4046576
 															},
 															{
 																"Header": {
@@ -5716,14 +6177,16 @@
 																			{
 																				"OpCode": "END"
 																			}
-																		]
+																		],
+																		"AbsOffSet": 4075402
 																	},
 																	{
 																		"Header": {
 																			"Type": 16
 																		},
 																		"Type": "EFI_SECTION_PE32",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 4075442
 																	},
 																	{
 																		"Header": {
@@ -5731,7 +6194,8 @@
 																		},
 																		"Type": "EFI_SECTION_USER_INTERFACE",
 																		"ExtractPath": "",
-																		"Name": "EmuVariableFvbRuntimeDxe"
+																		"Name": "EmuVariableFvbRuntimeDxe",
+																		"AbsOffSet": 4100022
 																	},
 																	{
 																		"Header": {
@@ -5739,11 +6203,13 @@
 																		},
 																		"Type": "EFI_SECTION_VERSION",
 																		"ExtractPath": "",
-																		"Version": "1.0"
+																		"Version": "1.0",
+																		"AbsOffSet": 4100076
 																	}
 																],
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 4075378
 															},
 															{
 																"Header": {
@@ -5799,14 +6265,16 @@
 																			{
 																				"OpCode": "END"
 																			}
-																		]
+																		],
+																		"AbsOffSet": 4100116
 																	},
 																	{
 																		"Header": {
 																			"Type": 16
 																		},
 																		"Type": "EFI_SECTION_PE32",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 4100192
 																	},
 																	{
 																		"Header": {
@@ -5814,7 +6282,8 @@
 																		},
 																		"Type": "EFI_SECTION_USER_INTERFACE",
 																		"ExtractPath": "",
-																		"Name": "FaultTolerantWriteDxe"
+																		"Name": "FaultTolerantWriteDxe",
+																		"AbsOffSet": 4123364
 																	},
 																	{
 																		"Header": {
@@ -5822,11 +6291,13 @@
 																		},
 																		"Type": "EFI_SECTION_VERSION",
 																		"ExtractPath": "",
-																		"Version": "1.0"
+																		"Version": "1.0",
+																		"AbsOffSet": 4123412
 																	}
 																],
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 4100092
 															},
 															{
 																"Header": {
@@ -5864,14 +6335,16 @@
 																			{
 																				"OpCode": "END"
 																			}
-																		]
+																		],
+																		"AbsOffSet": 4123450
 																	},
 																	{
 																		"Header": {
 																			"Type": 16
 																		},
 																		"Type": "EFI_SECTION_PE32",
-																		"ExtractPath": ""
+																		"ExtractPath": "",
+																		"AbsOffSet": 4123490
 																	},
 																	{
 																		"Header": {
@@ -5879,7 +6352,8 @@
 																		},
 																		"Type": "EFI_SECTION_USER_INTERFACE",
 																		"ExtractPath": "",
-																		"Name": "VariableRuntimeDxe"
+																		"Name": "VariableRuntimeDxe",
+																		"AbsOffSet": 4180838
 																	},
 																	{
 																		"Header": {
@@ -5887,33 +6361,40 @@
 																		},
 																		"Type": "EFI_SECTION_VERSION",
 																		"ExtractPath": "",
-																		"Version": "1.0"
+																		"Version": "1.0",
+																		"AbsOffSet": 4180880
 																	}
 																],
 																"ExtractPath": "",
-																"DataOffset": 24
+																"DataOffset": 24,
+																"AbsOffSet": 4123426
 															}
 														],
 														"DataOffset": 120,
 														"FVOffset": 0,
 														"ExtractPath": "",
-														"Resizable": true
+														"Resizable": true,
+														"AbsOffSet": 0
 													}
 												}
-											]
+											],
+											"AbsOffSet": 917644
 										}
 									}
-								]
+								],
+								"AbsOffSet": 540816
 							}
 						],
 						"ExtractPath": "",
-						"DataOffset": 24
+						"DataOffset": 24,
+						"AbsOffSet": 540792
 					}
 				],
 				"DataOffset": 120,
 				"FVOffset": 540672,
 				"ExtractPath": "",
-				"Resizable": false
+				"Resizable": false,
+				"AbsOffSet": 540672
 			}
 		},
 		{
@@ -5956,7 +6437,8 @@
 									"Type": 16
 								},
 								"Type": "EFI_SECTION_PE32",
-								"ExtractPath": ""
+								"ExtractPath": "",
+								"AbsOffSet": 3981456
 							},
 							{
 								"Header": {
@@ -5964,7 +6446,8 @@
 								},
 								"Type": "EFI_SECTION_USER_INTERFACE",
 								"ExtractPath": "",
-								"Name": "SecMain"
+								"Name": "SecMain",
+								"AbsOffSet": 4003348
 							},
 							{
 								"Header": {
@@ -5972,11 +6455,13 @@
 								},
 								"Type": "EFI_SECTION_VERSION",
 								"ExtractPath": "",
-								"Version": "1.0"
+								"Version": "1.0",
+								"AbsOffSet": 4003368
 							}
 						],
 						"ExtractPath": "",
-						"DataOffset": 24
+						"DataOffset": 24,
+						"AbsOffSet": 3981432
 					},
 					{
 						"Header": {
@@ -5989,7 +6474,8 @@
 						},
 						"Type": "EFI_FV_FILETYPE_FFS_PAD",
 						"ExtractPath": "",
-						"DataOffset": 24
+						"DataOffset": 24,
+						"AbsOffSet": 4003382
 					},
 					{
 						"Header": {
@@ -6002,18 +6488,21 @@
 						},
 						"Type": "EFI_FV_FILETYPE_RAW",
 						"ExtractPath": "",
-						"DataOffset": 24
+						"DataOffset": 24,
+						"AbsOffSet": 4193542
 					}
 				],
 				"DataOffset": 120,
 				"FVOffset": 3981312,
 				"ExtractPath": "",
-				"Resizable": false
+				"Resizable": false,
+				"AbsOffSet": 3981312
 			}
 		}
 	],
 	"ExtractPath": "",
 	"Length": 4194304,
 	"FRegion": null,
-	"RegionType": 0
+	"RegionType": 0,
+	"AbsOffSet": 0
 }
